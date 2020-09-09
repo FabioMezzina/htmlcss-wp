@@ -99,7 +99,11 @@ main p {
 aside.left-col {
   width: 23%;
   height: auto;
-  padding: 5px;
+  padding: 10px;
+}
+
+main .left-col-title {
+  margin-bottom: 10px;
 }
 
 .fa-rss-square {
@@ -115,6 +119,21 @@ main .left-col h2 {
   font-size: 1.5em;
 }
 
+main .left-col li {
+  text-transform: capitalize;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+main .left-col li a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #9f8f79;
+}
+
+main .left-col li a:hover {
+  color: #5f7773;
+}
 
 /* CENTER COLUMN */
 section.center-col {
