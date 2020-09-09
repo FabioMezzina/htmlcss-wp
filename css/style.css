@@ -21,6 +21,13 @@ body {
   font-weight: 700;
 }
 
+.header-text {
+  color: #504741;
+  font-size: 1.2em;
+}
+
+
+
 /* HEADER */
 header {
   padding: 30px 0 0 0;
@@ -39,6 +46,7 @@ header p.text-cap-white {
   font-size: 2em;
   font-weight: 700;
 }
+
 
 
 /* SITE NAV BAR */
@@ -69,9 +77,12 @@ header p.text-cap-white {
 }
 
 
-/* MAIN */
-main {
 
+/* MAIN */
+main p {
+  font-size: 0.9em;
+  color: #000;
+  line-height: 2em;
 }
 
 main::after {
@@ -89,15 +100,28 @@ main::after {
   background-color: #fff;
 }
 
+/* LEFT COLUMN */
 aside.left-col {
   width: 23%;
 }
 
+
+/* CENTER COLUMN */
 section.center-col {
+  height: auto;
   width: 50%;
   margin: 0 2%;
+  padding: 20px;
 }
 
+main .center-col h1 {
+  margin-bottom: 30px;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  text-shadow: #504741 2px 2px 0.1em;
+}
+
+/* RIGHT COLUMN */
 aside.right-col {
   width: 23%;
 }
