@@ -62,18 +62,18 @@ header p.text-cap-white {
 }
 
 .site-nav li {
-
-  padding: 0 20px;
   list-style: none;
   display: inline-block;
 }
 
 .site-nav a {
+  padding: 0 20px;
   color: inherit;
   font-size: 0.7em;
   text-transform: inherit;
   text-decoration: none;
   line-height: 50px;
+  display: inline-block;
 }
 
 .site-nav li:hover {
