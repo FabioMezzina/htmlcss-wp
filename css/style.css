@@ -78,7 +78,7 @@ header p.text-cap-white {
 
 .site-nav li:hover {
   background-color: #b3b3b3;
-  border-radius: 10px;
+  border-radius: 0 0 5px 5px;
 }
 
 
