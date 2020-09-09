@@ -25,7 +25,11 @@ body {
   color: #504741;
 }
 
-
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
 
 /* HEADER */
 header {
@@ -84,24 +88,31 @@ main p {
   line-height: 2em;
 }
 
-main::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
 .col {
-
-  height: 100px;  /*elimina quando finisci di stilare le colonne*/
-
   float: left;
   border-radius: 5px;
   background-color: #fff;
 }
 
+
 /* LEFT COLUMN */
 aside.left-col {
   width: 23%;
+  height: auto;
+  padding: 5px;
+}
+
+.fa-rss-square {
+  width: 20%;
+  font-size: 2em;
+  color: #faa501;
+  float: left;
+}
+
+main .left-col h2 {
+  width: 80%;
+  float: left;
+  font-size: 1.5em;
 }
 
 
