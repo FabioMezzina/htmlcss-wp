@@ -18,11 +18,12 @@ body {
 .text-cap-white {
   color: white;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 /* HEADER */
 header {
-  padding: 40px 0 0 0;
+  padding: 30px 0 0 0;
   height: 400px;
   background-image: url('../img/natural-header.jpg');
   background-size: cover;
@@ -37,4 +38,31 @@ header .header-logo {
 header p.text-cap-white {
   font-size: 2em;
   font-weight: 700;
+}
+
+
+/* SITE NAV BAR */
+.site-nav {
+  background-color: #666;
+  text-align: center;
+}
+
+.site-nav li {
+
+  padding: 0 20px;
+  list-style: none;
+  display: inline-block;
+}
+
+.site-nav a {
+  color: inherit;
+  font-size: 0.7em;
+  text-transform: inherit;
+  text-decoration: none;
+  line-height: 50px;
+}
+
+.site-nav li:hover {
+  background-color: #b3b3b3;
+  border-radius: 10px;
 }
