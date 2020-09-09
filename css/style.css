@@ -7,9 +7,34 @@
 body {
   background-image: url('../img/natural-pattern.png');
   padding: 20px;
+  font-family: 'Nunito', sans-serif;
 }
 
 #global-cont {
   margin: auto;
   width: 50%;
+}
+
+.text-cap-white {
+  color: white;
+  text-transform: uppercase;
+}
+
+/* HEADER */
+header {
+  padding: 40px 0 0 0;
+  height: 400px;
+  background-image: url('../img/natural-header.jpg');
+  background-size: cover;
+  text-align: center;
+  border: 10px solid #fff;
+}
+
+header .header-logo {
+  width: 60%;
+}
+
+header p.text-cap-white {
+  font-size: 2em;
+  font-weight: 700;
 }
