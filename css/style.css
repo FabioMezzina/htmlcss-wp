@@ -45,6 +45,7 @@ header p.text-cap-white {
 .site-nav {
   background-color: #666;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .site-nav li {
@@ -65,4 +66,38 @@ header p.text-cap-white {
 .site-nav li:hover {
   background-color: #b3b3b3;
   border-radius: 10px;
+}
+
+
+/* MAIN */
+main {
+
+}
+
+main::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col {
+
+  height: 100px;  /*elimina quando finisci di stilare le colonne*/
+
+  float: left;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+aside.left-col {
+  width: 23%;
+}
+
+section.center-col {
+  width: 50%;
+  margin: 0 2%;
+}
+
+aside.right-col {
+  width: 23%;
 }
