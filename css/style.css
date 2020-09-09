@@ -6,6 +6,7 @@
 
 body {
   background-image: url('../img/natural-pattern.png');
+  background-attachment: fixed;
   padding: 20px;
   font-family: 'Nunito', sans-serif;
 }
